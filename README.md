@@ -53,7 +53,7 @@ Script filling LOG file in the same directory when file script located. In file 
 After successful job script make screenshot page of hosts list.
 
 Also there is the Dockerfile. You can build docker image and scheduling run docker container for automate job on background.
-!!!! For build the Image edit lines with **"ENV UNAME"** and **"ENV PW"**. Set your NoIP account username and password or docker build process will be exited.
+!!!! For build the Image edit lines with **"ENV UNAME"** and **"ENV PW"**. Set your NoIP account username and password or ***docker build process will be exited***.
 
 Example command for build:
 
