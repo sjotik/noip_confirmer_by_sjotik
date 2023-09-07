@@ -7,9 +7,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt --no-cache-dir
 COPY . .
-# Replace XXX to NoIP account username
-ENV UNAME XXX
-# Replace XXX to NoIP account password
-ENV PW XXX
+# Set NoIP account username to UNAME variable
+ENV UNAME=
+RUN if [ -z "$UNAME" ]; then echo 'Environment variable UNAME must be specified. Exiting.'; exit 1; fi
+# Set NoIP account password to PW variable
+ENV PW=
+RUN if [ -z "$PW" ]; then echo 'Environment variable PW must be specified. Exiting.'; exit 1; fi
 
 CMD python3 noip.py $UNAME $PW
