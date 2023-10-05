@@ -1,6 +1,15 @@
 ![License](https://img.shields.io/github/license/sjotik/noip_confirmer_by_sjotik.svg?style=for-the-badge) ![Repo Size](https://img.shields.io/github/languages/code-size/sjotik/noip_confirmer_by_sjotik.svg?style=for-the-badge) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/sjotik/noip_confirmer_by_sjotik.svg?style=for-the-badge)
-    
-# NoIP confirmer by [sjotik](https://github.com/sjotik)
+
+<br/>
+<p align="center">
+<!--
+  <a href="https://github.com/sjotik/foodgram-project-react">
+    <img src="frontend/src/logo.svg" alt="Logo" width="80" height="80">
+  </a>
+-->
+
+  <h1 align="center">NoIP confirmer by <a href="https://github.com/sjotik">sjotik</a></h1>
+</p>
 
 ## Table of Contents
 
@@ -53,7 +62,7 @@ Script filling LOG file in the same directory when file script located. In file 
 After successful job script make screenshot page of hosts list.
 
 Also there is the Dockerfile. You can build docker image and scheduling run docker container for automate job on background.
-!!!! For build the Image edit lines with **"ENV UNAME"** and **"ENV PW"**. Set your NoIP account username and password or docker build process will be exited.
+!!!! For build the Image edit lines with **"ENV UNAME"** and **"ENV PW"**. Set your NoIP account username and password or ***docker build process will be EXITED***.
 
 Example command for build:
 
