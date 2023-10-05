@@ -77,10 +77,8 @@ Example command for run container:
 
 
 
+<img src="https://brandslogos.com/wp-content/uploads/images/arm-logo-vector-1.svg" alt="Logo" width="80" height="80"><p>P.S.S. I have docker container (beta, but working) with this script for ARM (i'm using on RPI), if need it, create an issue and I’ll finish the project.</p>
 
-#### P.S. I have docker container (beta, but working) with this script for ARM (i'm using on RPI),
-#### if need it, create фт issue and I’ll finish the project.
-<img src="https://brandslogos.com/wp-content/uploads/images/arm-logo-vector-1.svg" alt="Logo" width="80" height="80">
 
 
 ## License
